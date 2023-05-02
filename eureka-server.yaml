@@ -3,10 +3,6 @@ server:
   servlet:
     context-path: /eureka-server
 
-spring:
-  application:
-    name: eureka-server
-
 eureka:
   client:
     register-with-eureka: false
