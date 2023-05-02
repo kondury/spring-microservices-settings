@@ -11,3 +11,12 @@ spring:
           predicates:
             - Path=/main/test
             - Method=GET
+            
+management:
+  endpoint:
+    gateway:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: *
